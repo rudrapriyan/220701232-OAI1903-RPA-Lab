@@ -1,0 +1,5 @@
+﻿Test Name,Result,Reference Range,Category
+Glucose,110,70-100,Abnormal
+Cholesterol,190,<200,Normal
+Haemoglobin,12,13-17,Critical
+Vitamin-D,25,30-100,Critical
