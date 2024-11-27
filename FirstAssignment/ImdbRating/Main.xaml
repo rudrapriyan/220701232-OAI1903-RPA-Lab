@@ -1,0 +1,182 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="597.3333333333334,1923.3333333333333" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="546,1858.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: IMDb: Ratings, Reviews, and Where to Watch the Best Movies &amp; TV Shows" sap:VirtualizedContainerService.HintSize="484,1748" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="b981d9d0-a721-4805-87be-ebf33f3e8242" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1528.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="ratinf" />
+              <Variable x:TypeArguments="x:String" Name="rating" />
+              <Variable x:TypeArguments="x:String" Name="year" />
+              <Variable x:TypeArguments="x:String" Name="duration" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  suggestion-search'" sap:VirtualizedContainerService.HintSize="388,157.33333333333334" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="Amaran">
+              <ui:TypeInto.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="2e5d5e9d-aa57-408a-8ba3-e3197a507087" InformativeScreenshot="59b82a35fd197effa6a00a9cfb05f42a" Selector="&lt;webctrl id='suggestion-search' tag='INPUT' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:TypeInto.Target>
+            </ui:TypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SVG'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b981d9d0-a721-4805-87be-ebf33f3e8242" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.imdb.com/find/?q=amaran&amp;ref_=nv_sr_sm" DesignTimeRectangle="1121, 214, 36, 36" DesignTimeScaleFactor="1.5" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl aria-role='presentation' parentid='suggestion-search-button' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' parentid='suggestion-search-button' tag='svg' type='' class='ipc-icon ipc-icon--magnify' aaname='' /&gt;" Guid="db401139-cce1-48e4-828c-2e7836a18886" InformativeScreenshot="dffedf1884e09c9bfc257510c4880722.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Find - IMDb' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Delay Duration="00:00:07" sap:VirtualizedContainerService.HintSize="388,92" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '2024'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b981d9d0-a721-4805-87be-ebf33f3e8242" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.imdb.com/find/?q=amaran&amp;ref_=nv_sr_sm" DesignTimeRectangle="241, 278, 75, 111" DesignTimeScaleFactor="1.5" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='IMG' type='' class='ipc-image' aaname='Kamal Haasan, G.V. Prakash Kumar, Sivakarthikeyan, R.Mahendran, and Rajkumar Periasamy in Amaran (2024)' /&gt;" Guid="f6623bc7-2f1f-4bde-abd5-f0e366c89b9a" InformativeScreenshot="9fc648df3597146eaaf8507310690658.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Find - IMDb' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="328, 322, 49, 25" ElementType="Text" FriendlyName="'2024'" FullSelectorArgument="&lt;webctrl class='ipc-metadata-list-summary-item__li' parentid='__next' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='ipc-metadata-list-summary-item__li' parentid='__next' tag='SPAN' type='' aaname='2024' check:innerText='2024' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text '8.7'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="b981d9d0-a721-4805-87be-ebf33f3e8242" TextString="[rating]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.imdb.com/title/tt27118357/?ref_=fn_al_tt_1" DesignTimeRectangle="1171, 381, 47, 36" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'8.7'" FullSelectorArgument="&lt;webctrl aaname='8.7' parentid='__next' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='__next' tag='SPAN' type='' class='sc-d541859f-1 imUuxf' /&gt;" Guid="f210747c-b3ef-4206-bf71-b6d97b384634" InformativeScreenshot="9ca2d71f46937fb117d3ac14589e56a0.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Amaran (2024) - IMDb' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text '2024'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="b981d9d0-a721-4805-87be-ebf33f3e8242" TextString="[year]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.imdb.com/title/tt27118357/?ref_=fn_al_tt_1" DesignTimeRectangle="216, 425, 49, 30" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'2024'" FullSelectorArgument="&lt;webctrl aaname='2024' parentid='__next' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='__next' tag='A' type='' class='ipc-link ipc-link--baseAlt ipc-link--inherit-color' /&gt;" Guid="fa96531c-5d47-48c8-9a71-f347505ceb55" InformativeScreenshot="062034c7a0f2e3253f9b21347d4ce76f.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Amaran (2024) - IMDb' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="264, 425, 100, 30" ElementType="ListItem" FriendlyName="'2h 47m'" FullSelectorArgument="&lt;webctrl aria-role='presentation' isleaf='1' tag='LI' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' isleaf='1' tag='LI' type='' class='ipc-inline-list__item' aaname='2h 47m' check:innerText='2h 47m' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text '2h 47m'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="b981d9d0-a721-4805-87be-ebf33f3e8242" TextString="[duration]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.imdb.com/title/tt27118357/?ref_=fn_al_tt_1" DesignTimeRectangle="264, 425, 100, 30" DesignTimeScaleFactor="1.5" ElementType="ListItem" FriendlyName="'2h 47m'" FullSelectorArgument="&lt;webctrl aria-role='presentation' isleaf='1' tag='LI' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' isleaf='1' tag='LI' type='' class='ipc-inline-list__item' /&gt;" Guid="7ce3cbdc-7af8-4916-a263-703d5a5a2229" InformativeScreenshot="0f3a1d911752c3a0f87a1ede5df79c83.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Amaran (2024) - IMDb' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="388,86.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Rating : &quot;+rating+Environment.NewLine+&quot;Duration : &quot;+duration+Environment.NewLine + &quot;Year : &quot; + year]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAdVJREFUWEftlDssQ1EYx69q7+2tPt2iJjERLJV4LMSgBq9OWBjaREKICBI0MZSQVEMIDQORWiRKjBUbJWHvZMUuwfy53znpfbSJ3EgwOMMv53/O7fm+X865vdzHnQ/+EibABJgAE2ACBQLHyy4ItPAwGLDCzYFEMhLqF+HlslyZI9mUVzfvauUhErbDW6YCJodsZC0+7dDVz6dAIDpmB47jwCeZ4DzuIRkRBQ5uDyVljtwn1bnHUaTkkzU3NDdYSA7L4vk9tBgWQGJTDt1cK5De8YC5mOatWacigCeXirkJ77cVul6IIQHeQgvjkeJJYEa0AleJUrBZ6SloBQRe/f3KuF3XCzEkUFNVTEarXKyu2qwU/EqgqZ4KDHeLEOwQSO5rF3S9EEMC/lozVHpNJPe00WKIkRMIB0UC5l55b34/QwKNskCbnycZ324ckXyB3PX8iAC+TJg3Z9QXUSuwNEr3Idtz6hWMyFcw0Gkl+dtXgAKrE7TxxQZdQ7QCOUwmDu6OJOUELGb12WKoRNcLKRB4OJZgL+KEZNQFjxdlJKfW3ZA99ZL8lC4nI/Kcps9z7MvgfqxzFneTtYz8MUssOGF33gmv1wb+hr8NE2ACTIAJ/HcBH3wCnyEaX70T9tEAAAAASUVORK5CYII=" InformativeScreenshot="46733f350d95ba846f059f5ba42933dc.jpg" Selector="&lt;html app='msedge.exe' title='IMDb: Ratings, Reviews, and Where to Watch the Best Movies &amp;amp; TV Shows' /&gt;" Title="IMDb: Ratings, Reviews, and Where to Watch the Best Movies &amp; TV Shows" Url="https://www.imdb.com/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
